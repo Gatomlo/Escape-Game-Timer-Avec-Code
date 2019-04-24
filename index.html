@@ -1,0 +1,47 @@
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		<div class="container">
+	    <div id="interface">
+				<div id="timerZone">
+					<div class="circleCountdown d-flex justify-content-center"><span class="green" id="clock"><span></div>
+					<div id="codeForm"></div>
+				</div>
+				<form id="config">
+					<div class="form-group">
+				  	<label for="timerDuration">Durée du timer:</label>
+				  	<input  class="form-control" id="timerDuration" value="600" type="number" name="duration">
+						<small id="durationHelp" class="form-text text-muted">Cette valeur est exprimée en secondes</small>
+					</div>
+					<div class="form-group">
+						<label for="timerCode">Mot de passe / code</label>
+				  	<input value="12345" class="form-control" id="timerCode" type="text" name="code">
+					</div>
+					<div class="form-group">
+						<label for="timerPenality">Pénalité en cas d'erreur:</label>
+					  <input  class="form-control" id="timerPenality" value="10" type="number" name="penality">
+						<small id="penalityHelp" class="form-text text-muted">Cette valeur est exprimée en secondes</small>
+					</div>
+					<div class="form-group">
+						<label for="timerMessage">Message final</label>
+						<input  class="form-control" id="timerMessage" value="Bombe désarmée, Félicitations !" type="text" name="penality">
+						<small id="messageHelp" class="form-text text-muted">Ce message s'affichera lorsque le bon code aura été fourni</small>
+					</div>
+				  <button id="submit" type="submit" class="btn btn-primary">Lancer</button>
+				</form>
+	    </div>
+		</div>
+    <script src="assets/js/circle-progress.js"></script>
+		<script src="assets/js/timer.js"></script>
+	</body>
+</html>

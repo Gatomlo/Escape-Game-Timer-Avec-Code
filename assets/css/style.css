@@ -1,0 +1,47 @@
+body{
+  width:100%;
+  background-color: black;
+
+}
+
+#interface{
+  margin-top: 50px;
+}
+
+.circleCountdown {
+  position: absolute;
+  top: 20%;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto
+  width: 90%;
+}
+
+
+#clock {
+  position: absolute;
+  top: 45%;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto
+  width: 90%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.green{
+  color: green;
+}
+
+.orange{
+  color:orange;
+}
+
+.red{
+  color: red;
+}
