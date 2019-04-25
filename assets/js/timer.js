@@ -127,6 +127,7 @@ function stopTimer(){
 function displayTimer(){
   if(actualTime < 0){
     stopTimer();
+    $('#codeForm').remove();
     audioPlay();
   }
   else{
