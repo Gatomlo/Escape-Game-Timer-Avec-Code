@@ -6,8 +6,11 @@ Le premier affichage est le suivant :
 ![réglage minuteur](https://github.com/Gatomlo/Escape-Game-Timer-Avec-Code/blob/master/Screenshot_2.png)
 
 **Durée du timer :** Vous pouvez indiquer la durée de votre choix. Celle-ci doit être exprimée en seconde. 
+
 **Mot de passe :** Indiquez le mot de passe qui permettra d'interompre le timer.
+
 **Pénalité en cas d'erreur :** Vous pouvez indique le nombre de seconde qui seront rentranchées du temps restant en cas d'erreur dans le mot de passe.
+
 **Message final :** Indiquez ici le message qui s'affichera quand le bon code aura été encodé. 
 
 Une fois tous vos réglages effectués, cliquez sur "lancer". Vous aurez alors l'affichage suivant:
